@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalenKuat Minecraft Server</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header class="hero" data-aos="fade-down">
+        <div class="container">
+            <h1 class="animate-title">Welcome to <span class="server-name">TalenKuat Survival</span></h1>
+            <p class="animate-subtitle">A pure, limitless, and free survival experience awaits you.</p>
+            <button class="animate-button" onclick="copyIP()">Copy Server IP</button>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="animate-section-title" data-aos="fade-up">Why Join TalenKuat?</h2>
+            <div class="feature-list">
+                <div class="feature animate-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>🌟 Pure Survival</h3>
+                    <p>No plugins, no rules, just pure vanilla Minecraft. Your survival skills are put to the test!</p>
+                </div>
+                <div class="feature animate-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>🌍 Endless Exploration</h3>
+                    <p>Explore vast biomes, build amazing structures, and thrive in an untouched Minecraft world.</p>
+                </div>
+                <div class="feature animate-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>🤝 Freedom & Creativity</h3>
+                    <p>Collaborate or compete with other players. Everything is in your hands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" data-aos="fade-up">
+        <div class="container">
+            <h2 class="animate-cta-title">Are You Ready?</h2>
+            <p class="animate-cta-text">Join TalenKuat now and embark on the ultimate survival journey.</p>
+            <div class="button-group">
+                <a href="https://chat.whatsapp.com/J0HJUqpPiSrKwOvvRlqF6P" target="_blank" class="cta-link whatsapp">Join WhatsApp</a>
+                <a href="https://discord.gg/vmKSpHv3" target="_blank" class="cta-link discord">Join Discord</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Perkumpulan Sigma Minecraft Server</p>
+    </footer>
+
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
