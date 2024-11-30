@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+    background: url('function copyIP() {
+    const ip = "perkumpulansigma.falixsrv.me:59794";
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(ip).then(() => {
+            alert(`Server IP "${ip}" copied to clipboard!`);
+        }).catch(() => {
+            fallbackCopyText(ip);
+        });
+    } else {
+        fallbackCopyText(ip);
+    }
+}
+
+function fallbackCopyText(text) {
+    const tempInput = document.createElement("textarea");
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+    alert(`Server IP "${text}" copied to clipboard!`);
+}
+') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 120px 20px;
+    position: relative;
+    box-shadow: inset 0 0 200px rgba(0, 0, 0, 0.8);
+}
+
+/* Animasi Mewah */
+@keyframes fadeSlideIn {
+    0% { opacity: 0; transform: translateY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-title {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    animation: fadeSlideIn 1s ease-out forwards;
+}
+
+.animate-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    animation: fadeSlideIn 1.5s ease-out forwards;
+}
+
+.animate-button {
+    background: linear-gradient(90deg, #57c45b, #45a349);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    animation: fadeSlideIn 2s ease-out forwards;
+    transition: transform 0.3s ease;
+}
+
+.animate-button:hover {
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.features {
+    background-color: #282828;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 280px;
+    animation: fadeSlideIn 1.5s ease-out forwards;
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.feature h3 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #bbb;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.animate-cta-title {
+    font-size: 2.5em;
+    color: #57c45b;
+    margin-bottom: 15px;
+    animation: fadeSlideIn 1s ease-out forwards;
+}
+
+.animate-cta-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    animation: fadeSlideIn 1.5s ease-out forwards;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cta-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-link.whatsapp {
+    background-color: #25d366;
+}
+
+.cta-link.discord {
+    background-color: #5865f2;
+}
+
+.cta-link:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+}
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #57c45b;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.back-to-top:hover {
+    transform: scale(1.2);
+}
+
+/* Show Button */
+.back-to-top.show {
+    display: block;
+    opacity: 1;
+}
