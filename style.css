@@ -10,29 +10,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('function copyIP() {
-    const ip = "perkumpulansigma.falixsrv.me:59794";
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(ip).then(() => {
-            alert(`Server IP "${ip}" copied to clipboard!`);
-        }).catch(() => {
-            fallbackCopyText(ip);
-        });
-    } else {
-        fallbackCopyText(ip);
-    }
-}
-
-function fallbackCopyText(text) {
-    const tempInput = document.createElement("textarea");
-    tempInput.value = text;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand("copy");
-    document.body.removeChild(tempInput);
-    alert(`Server IP "${text}" copied to clipboard!`);
-}
-') no-repeat center center/cover;
+    background: url('https://wallpapercave.com/wp/NjGW245.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 120px 20px;
