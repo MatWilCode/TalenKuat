@@ -1,5 +1,5 @@
 function copyIP() {
-    const ip = "perkumpulansigma.falixsrv.me:59794";
+    const ip = "talenkuat.aternos.me:64341";
     if (navigator.clipboard) {
         navigator.clipboard.writeText(ip).then(() => {
             alert(`Server IP "${ip}" copied to clipboard!`);
